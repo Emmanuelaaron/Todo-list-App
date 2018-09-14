@@ -9,3 +9,12 @@ input[type=text], input[type=password], input[type=email] {
     text-align: center;
     background: teal;
 }
+.cancel {
+    background-color: #8b577a;
+}
+
+/* Css for signup.html */
+.all {
+    text-align: center;
+    background-color: teal;
+}
