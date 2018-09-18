@@ -6,39 +6,31 @@
     <title>Todo list App</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="../ASSETS/css/login.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../ASSETS/css/main.css" />
     <script src="../ASSETS/js/main.js"></script>
 </head>
 <body class="body">
-    <h1 class="header">TODO List App</h1>
-    
-        <form>
-            <div class="login">
-                    <label for="username"><b>UserName</b></label>
-                    <input type="text" placeholder="Enter username" name="username" required><br>
-        
-                    <label for="password"><b>PassWord</b></label>
-                    <input type="password" placeholder="Enter password" name="password" required><br>
-        
-                    <button type="submit">Login</button>
-        
-                    <label>
-                        <input type="checkbox" checked = "checked" name="remember"> Remember me 
-                    </label>
-            </div><br>
-            <div class="cancel">
-                <button type="button" class="cancel-button">Cancel</button>
-                <span class="password">Forgot <a href="#">PassWord</a></span>
-
+    <div class="header">
+        <h1 class="head">TODO List App</h1>
+        <a href="../UI/signup.html"><button type="button" name="">Create Account</button></a>
+    </div>
+    <div class="personaldetails">
+        <h1>Login</h1>
+        <form class="login">
+            <div class="email">
+                <label for="email"><b>Email</b></label>
+                <input type="email" placeholder="Enter Email" name="email" required>
             </div>
-            <br>
-            <br>
-            <div>If you don't have an account <a href="../UI/signup.html">Sign up</a></div>
-            <br>
-            
-
-            
-        </form>
-
+            <div class="password">
+                <label for="password"><b>PassWord</b></label>
+                <input type="password" placeholder="Enter password" name="password" required>
+            </div>
+            <div class="button">
+                <button type="submit">Login</button>
+            </div>
     
+            <div class="conditions">If you don't have an account <a href="../UI/signup.html" class="terms">Sign up</a></div>
+        </form>
+    </div>
 </body>
 </html>

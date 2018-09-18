@@ -1,0 +1,59 @@
+.signup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    box-sizing: border-box;
+    background-color: #547e94;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.5)
+}
+.conditions {
+    color: rgb(240, 248, 255);
+    text-align: center;
+}
+
+.personaldetails {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* height: 100%; */
+    color: rgb(240, 248, 255);
+}
+
+.button button {
+    margin-top: 10px;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 12px 74px; 
+    border: 1px solid #111111;
+    background-color: #111111;
+    color: #ffffff;
+}
+
+input {
+    display: block;
+    /* width: 20%; */
+    border: 1px solid #f7f7f7;
+    /* margin: 10px 0; */
+    padding: 12px 20px;
+    margin-top: 10px;
+}
+
+.button button:hover{
+    background-color: #cc1616;
+}
+
+.conditions {
+    color: aliceblue;
+}
+
+.header {
+    color: #f0f8ff;
+}
+
+@media only screen and (max-width: 587px) {
+    .signup {
+        width: 70%;
+    }
+}
