@@ -12,7 +12,7 @@ def delete_task(task):
     """
     Removes the specified task from the todo_list
     """
-    todo_list.remove(task)
+    todo_list.remove(task) #implement using pop()
     return todo_list
 
 #function that marks a task finiished
@@ -20,8 +20,10 @@ def mark_as_finished(task):
     """
     Appends the string lable '[finished]' at the end of the task
     """
-    res = task + " [finished]"
-    return res
+    for item in todo_list:
+        if task is item:
+            return task + " [finished]"
+        
 
 #function that deletes all tasks
 def delete_all_tasks():

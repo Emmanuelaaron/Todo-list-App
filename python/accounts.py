@@ -1,4 +1,4 @@
-accounts = {}
+accounts = {"Emma": "emma"}
 #function adds user details to accounts
 def add_account(name, password):
     """
