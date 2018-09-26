@@ -1,0 +1,88 @@
+input {
+    display: block;
+    border: 1px solid #f7f7f7;
+    padding: 12px 20px;
+    margin-top: 10px;
+}
+
+.personaldetails {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+}
+
+
+
+.terms {
+    color: rgb(7, 15, 19);
+}
+label {
+    display: block;
+    margin-top: 10px;
+}
+.button button {
+    margin-top: 10px;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 12px 83px;
+    border: 1px solid #111111;
+    background-color: #111111;
+    color: #ffffff;
+    
+}
+
+.button button:hover, button:hover {
+    background-color: #cc1616;
+}
+
+.conditions {
+    color: aliceblue;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    background-color: #547e94;
+    padding: 10px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.5)
+    
+}
+h1 {
+    color: aliceblue;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #547e94;
+    margin-top: 20px;
+    align-items: center;
+}
+
+button {
+    font-size: 17px;
+    font-weight: 500;
+    padding: 12px 83px;
+    border: 1px solid #111111;
+    background-color: #111111;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 521px) {
+    .header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.header button {
+    margin-right: 10px;
+}
